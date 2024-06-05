@@ -1,0 +1,2479 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.14f1 (eeca29774eb5) revision 15649321'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Enterprise' Language: 'en' Physical Memory: 16312 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/gavin/OneDrive/Desktop/Unity projects/MXRT
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50114
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/gavin/OneDrive/Desktop/Unity projects/MXRT
+C:/Users/gavin/OneDrive/Desktop/Unity projects/MXRT
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10860] Host "[IP] 192.168.10.125 [Port] 0 [Flags] 2 [Guid] 2317579260 [EditorId] 2317579260 [Version] 1048832 [Id] WindowsEditor(7,pixoBigBox) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10860] Host "[IP] 192.168.10.125 [Port] 0 [Flags] 2 [Guid] 2317579260 [EditorId] 2317579260 [Version] 1048832 [Id] WindowsEditor(7,pixoBigBox) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 609.70 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.14f1 (eeca29774eb5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gavin/OneDrive/Desktop/Unity projects/MXRT/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.5585
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.304877 seconds.
+- Loaded All Assemblies, in  7.765 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 225 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.549 seconds
+Domain Reload Profiling: 8311ms
+	BeginReloadAssembly (5933ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (345ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (345ms)
+	LoadAllAssembliesAndSetupDomain (1128ms)
+		LoadAssemblies (5930ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1125ms)
+			TypeCache.Refresh (1124ms)
+				TypeCache.ScanAssembly (899ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (549ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (318ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\gavin\OneDrive\Desktop\Unity projects\MXRT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gavin\OneDrive\Desktop\Unity projects\MXRT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  7.447 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 11.25 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 14.63 ms, found 11 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.052 seconds
+Domain Reload Profiling: 9493ms
+	BeginReloadAssembly (278ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (7087ms)
+		LoadAssemblies (6205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (971ms)
+			TypeCache.Refresh (932ms)
+				TypeCache.ScanAssembly (873ms)
+			BuildScriptInfoCaches (30ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2052ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1881ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (560ms)
+			ProcessInitializeOnLoadMethodAttributes (1233ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 15.62 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5400 unused Assets / (3.7 MB). Loaded Objects now: 5987.
+Memory consumption went from 143.5 MB to 139.8 MB.
+Total: 15.584000 ms (FindLiveObjects: 0.871500 ms CreateObjectMapping: 0.853500 ms MarkObjects: 9.991700 ms  DeleteObjects: 3.866300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17078.690712 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd519869ad3a66e64c9e67ea039d86132') in 0.0631608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.801178 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec321f70d3cdb55cbede695dddf1e2fe') in 0.01561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.372062 seconds.
+  path: Assets/Images/mxrt6.png
+  artifactKey: Guid(5ec0fc8fcf671d745aa0d8872d9f5bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mxrt6.png using Guid(5ec0fc8fcf671d745aa0d8872d9f5bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7864c45de58fb956ae2ad1322b94a294') in 0.0413207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/mxrt2.png
+  artifactKey: Guid(dbe1826e7d06be348aab95d532a668a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mxrt2.png using Guid(dbe1826e7d06be348aab95d532a668a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec4bceaa778f929447f64edb34024ad5') in 0.0307358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/mxrt7.png
+  artifactKey: Guid(297464609453ada4c952de58335fdb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mxrt7.png using Guid(297464609453ada4c952de58335fdb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '202a514aaed69e4e5ad1dbbf21e9a7d8') in 0.0166339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.779953 seconds.
+  path: Assets/Images/path54 1.png
+  artifactKey: Guid(93ba65c0b8b388943bbc2a44fef635b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54 1.png using Guid(93ba65c0b8b388943bbc2a44fef635b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4002d3d4436e85a32667a194199b2eab') in 0.0139461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.494034 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02f5e95fece113a57dfae628c0f60e18') in 0.0081011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.270701 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc4c6a62b08f727565493945f072e29e') in 0.0134888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.929637 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c67b4dbf628bf2c326f978a251e32351') in 0.0139656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.258007 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54b347577a89c0b3c9f7b994d8bf9e14') in 0.0128017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.967388 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdfdbf3bcab211f899bf5a87c79a4636') in 0.0851069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.280645 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6807d1d0532566bce971a0cf611d3fb3') in 0.0295893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.167615 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f83520b92fde0e575b73ea1f7d4090e1') in 0.0332228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.256259 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95786eba6e74ae0541e736f72dd665d4') in 0.0168181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.366058 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13165932df1681cbb9f953e89860bc42') in 0.0116011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.519840 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5edb7960c118f0072d6897511485a8b7') in 0.0145633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.347856 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70e4a80f8a781db44c5d7ad2f7762719') in 0.0632405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.063246 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d8ece72dfc5c0885fdda7cc9b18a9c0') in 0.0500804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\gavin\OneDrive\Desktop\Unity projects\MXRT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gavin\OneDrive\Desktop\Unity projects\MXRT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.765 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 10.53 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.829 seconds
+Domain Reload Profiling: 1591ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (394ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (830ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (627ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 12.58 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5400 unused Assets / (3.1 MB). Loaded Objects now: 6054.
+Memory consumption went from 138.1 MB to 135.0 MB.
+Total: 9.336800 ms (FindLiveObjects: 0.843000 ms CreateObjectMapping: 0.878200 ms MarkObjects: 4.918500 ms  DeleteObjects: 2.696400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4459.752557 seconds.
+  path: Assets/Images/mxrt3.png
+  artifactKey: Guid(b3b74a7b196e52d488713b4342a88d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mxrt3.png using Guid(b3b74a7b196e52d488713b4342a88d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0083aa041a6ad3ae415cf68156ac5838') in 0.1005936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.275691 seconds.
+  path: Assets/Images/mxrt3.png
+  artifactKey: Guid(b3b74a7b196e52d488713b4342a88d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mxrt3.png using Guid(b3b74a7b196e52d488713b4342a88d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b790cad16af575264153ec411b471584') in 0.045254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1389.852599 seconds.
+  path: Assets/Scenes/BlankAR.unity
+  artifactKey: Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BlankAR.unity using Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '994655ee58b897f3d38047f3110e91e6') in 0.0032251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.512534 seconds.
+  path: Assets/ExampleAssets
+  artifactKey: Guid(5040ff35809714c9f899bd2e7ae0f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets using Guid(5040ff35809714c9f899bd2e7ae0f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c00fdea8091a8753a12d69fa6c6ab6c') in 0.0013107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.912007 seconds.
+  path: Assets/ExampleAssets/Scenes
+  artifactKey: Guid(4e7f5acf46ddb42618485f6adf8af0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Scenes using Guid(4e7f5acf46ddb42618485f6adf8af0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2e809dbd86b093ef97954af235a15d6') in 0.0014511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.077760 seconds.
+  path: Assets/ExampleAssets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6aec4ad93587fa6d91bc696c81cca2e') in 0.0010948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.285755 seconds.
+  path: Assets/ExampleAssets/Models
+  artifactKey: Guid(262e742d15f1b4d1487c6709552f51e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models using Guid(262e742d15f1b4d1487c6709552f51e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '380cf81a9f5eb0d72ffcd562f9859943') in 0.0020219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.347669 seconds.
+  path: Assets/ExampleAssets/Prefabs
+  artifactKey: Guid(652960599d8c4485a9ae38409999891a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs using Guid(652960599d8c4485a9ae38409999891a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '937b1370e88646a8c7350f7cc3d8be36') in 0.0018504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.560074 seconds.
+  path: Assets/ExampleAssets/Scripts
+  artifactKey: Guid(b7dc6893b21fb45f1b98fce4a2e373f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Scripts using Guid(b7dc6893b21fb45f1b98fce4a2e373f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8050866ffb3f5ab9d9536fb3358886a8') in 0.0007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.486307 seconds.
+  path: Assets/ExampleAssets/Shaders
+  artifactKey: Guid(504c5a8d7f1ea4880b02ef40c6f96bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Shaders using Guid(504c5a8d7f1ea4880b02ef40c6f96bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7046134c2a65f0e15abd35a56fce8f86') in 0.0018669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.773954 seconds.
+  path: Assets/Models/performer.fbx
+  artifactKey: Guid(91acd2064dae68541a9ead09eeeefb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/performer.fbx using Guid(91acd2064dae68541a9ead09eeeefb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8fbc5983b2f57d93af5d8a494cd7114') in 0.240235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
+
+========================================================================
+Received Prepare
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 12.73 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5335 unused Assets / (3.2 MB). Loaded Objects now: 6044.
+Memory consumption went from 136.3 MB to 133.1 MB.
+Total: 56.648700 ms (FindLiveObjects: 0.946100 ms CreateObjectMapping: 0.728600 ms MarkObjects: 52.292500 ms  DeleteObjects: 2.680600 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\gavin\OneDrive\Desktop\Unity projects\MXRT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gavin\OneDrive\Desktop\Unity projects\MXRT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.352 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 11.32 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.916 seconds
+Domain Reload Profiling: 3266ms
+	BeginReloadAssembly (317ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (1955ms)
+		LoadAssemblies (1837ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (215ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (916ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (702ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (463ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 11.85 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5396 unused Assets / (3.1 MB). Loaded Objects now: 6061.
+Memory consumption went from 142.0 MB to 138.9 MB.
+Total: 8.406700 ms (FindLiveObjects: 0.716100 ms CreateObjectMapping: 0.377400 ms MarkObjects: 5.149600 ms  DeleteObjects: 2.162500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1091.877239 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60e8e22f457f162bd45bf96b5803c79a') in 0.1075979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '507186e436703be2ee30174468941140') in 0.059865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.419951 seconds.
+  path: Assets/New Prefab.prefab
+  artifactKey: Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Prefab.prefab using Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '173b6cda2aafda11a62f09da4108aeb4') in 0.0080336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.101809 seconds.
+  path: Assets/1134847.prefab
+  artifactKey: Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134847.prefab using Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3be0a88e7c37e57156175dfdef8812a') in 0.0018261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.548618 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77ecc76b0b4e3ac2ca4540a1027a705a') in 0.0071269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.434301 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b0aa152b7c2776410be14e12171147a') in 0.0093163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\gavin\OneDrive\Desktop\Unity projects\MXRT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gavin\OneDrive\Desktop\Unity projects\MXRT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.632 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 14.19 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.801 seconds
+Domain Reload Profiling: 1430ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (139ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (802ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 14.65 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5396 unused Assets / (3.2 MB). Loaded Objects now: 6098.
+Memory consumption went from 144.2 MB to 140.9 MB.
+Total: 10.350600 ms (FindLiveObjects: 0.662300 ms CreateObjectMapping: 0.973100 ms MarkObjects: 6.228600 ms  DeleteObjects: 2.485800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 948.000815 seconds.
+  path: Packages/com.unity.xr.arfoundation/Runtime/ARFoundation/Unity.XR.ARFoundation.asmdef
+  artifactKey: Guid(a9420e37d7990b54abdef6688edbe313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Runtime/ARFoundation/Unity.XR.ARFoundation.asmdef using Guid(a9420e37d7990b54abdef6688edbe313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fb860921eebbf1d826df6263dd532bc') in 0.0033275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 468.367404 seconds.
+  path: Assets/1134847.prefab
+  artifactKey: Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134847.prefab using Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58edba090d91117e53b45bedf1ffb738') in 0.0820621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.734257 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b4ac7fbb0bb8de094b74497fb61ba38') in 0.0072477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.020006 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bc087b80c4d9388fd228a0a608b611a') in 0.0041428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 410.608371 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c46b139376ce1a02e51bc8662ac1908') in 0.0049805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.990531 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acc6ce7a5e1bc4b93cacc6dd5c894790') in 0.0043013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.053063 seconds.
+  path: Assets/1134847.prefab
+  artifactKey: Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134847.prefab using Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '173993061d14aa28f9e044189edb2fdd') in 0.0126095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.383838 seconds.
+  path: Assets/1134847.prefab
+  artifactKey: Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134847.prefab using Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b864aaad91b75eaa2b13c729d50dc46b') in 0.0084136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 5753.232404 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '400b88caa55fb9fa44e544409f83ed59') in 0.2609785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.078679 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33f13c5fe274eac16fc7021873d48660') in 0.0661651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.177636 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5f8cf92a154024d19242ee9a7db3305') in 0.0909148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.559604 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfd4606c2de2bc4b1682bc5c37303ecc') in 0.0324386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.722314 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd20b00e2c821d9ec1ef7465a766b4cb4') in 0.0410356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 1052.417676 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d8268fa4108fc45d30a284d95c1877d') in 0.0071042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.687180 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bf9b84359d2b76e0807bf231363cc00') in 0.0086225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 339.697544 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a4abc3a262f03f7a4bfb5437403864f') in 0.0978472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.789107 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dba06967d5248b68da3a006464552e1b') in 0.0428516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.558386 seconds.
+  path: Assets/1134847.prefab
+  artifactKey: Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134847.prefab using Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19e74d93b6fe8061ffb6dda633176315') in 0.0089977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.059401 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fbdb82a9b37ccf5610fdfc51d6cc0ad') in 0.1180418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.742967 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c45b225d99d324484a3caa14837402a3') in 0.0473075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.395899 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e27d106d78dc192f3ca16db38ff6cf5') in 0.0390158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.674398 seconds.
+  path: Assets/1134847.prefab
+  artifactKey: Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134847.prefab using Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72a11449102e3eebd22cce54b0ecbc4c') in 0.014368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 378.387514 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '494e49dd23002fb619b3e985a111c460') in 0.1244863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.969836 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c8f5751d735b6ceada7e7a8e773c65a') in 0.1352591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.536211 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d0559081e2b3aacb347b0ee1e43a690') in 0.0668838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.070347 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd673e0d5f90e5a6ad39686a57c3c7d13') in 0.0229921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.266338 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffd3a0f07c8c5cefad8d636cd9bc977e') in 0.0377242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.799548 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7858ec3eeb18b458cb52dfdc75e26b03') in 0.0256054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.989158 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0aac3024daa841b9d9dfbc033848119e') in 0.0312538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.379291 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1af390cf80439a179e241cc65fb5d3c7') in 0.0315513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.591121 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbe7e38133fd0fd33b1f706c960e8ff3') in 0.0230572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.284140 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afd3138027917c2b0523253369d610cf') in 0.0223213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.180710 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1145bb8c9e2b5e59a1ff41565d4a83ff') in 0.0208954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.412608 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fab79fc5c4e77e4af74ed82e24c133b') in 0.034142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.990208 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc4c78f0f537f07d1ccb33c612417652') in 0.0208888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.392713 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1c5ea5c7ddc20875b7959d8048bbee0') in 0.0208193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.935491 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d0df77cdcaa30c1b262360cb7528b7e') in 0.1014376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.006327 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ba4ba6afad784ac61691aece4f7f010') in 0.1355068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.244379 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93e77e6ace7a97d07e45c76d06c385c4') in 0.0603763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.764256 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68fe8f1315e9d3bd1d0fc152b20ab6c4') in 0.0743533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.529290 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebb24b8a66fb54c07ce0eabc49aa8aa9') in 0.0762222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.512233 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ec56d09e6e288de7591952af7fc5c1c') in 0.1096114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.304030 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4221944513d4daaf09f8f2e577fbe390') in 0.1199962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 361
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.700804 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '1a7465c6b965451badaae762870d6beb') in 0.088589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.042746 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bea0f49f3d7f9d882dce76fa4b9e007') in 0.0297869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.052675 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd58ab8b5dc50d51fbdd337aea37e0162') in 0.0307919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.724999 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ecdd558f9ae38669e449e52c02b05a9') in 0.0365936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.591770 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78e2e817deb231098c8d29987c036101') in 0.0248128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.224782 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51b9f91928d2d871416ecfd9be59faf6') in 0.0249023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.966758 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba04768a71187e9ca1ed3147b32eb3a4') in 0.0218061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.151186 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(42650952f89a789408e57ab2eaf70e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(42650952f89a789408e57ab2eaf70e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '551078b5381ab6d1cccda72f2f37609e') in 0.0010554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.427540 seconds.
+  path: Assets/Images/1134845 1.png
+  artifactKey: Guid(d4c9617f9168dd2449294f2edc6952f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/1134845 1.png using Guid(d4c9617f9168dd2449294f2edc6952f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b55de80788c3ad3798886f94a048abd') in 0.0554337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.168659 seconds.
+  path: Assets/Images/Example Image.png
+  artifactKey: Guid(d4c9617f9168dd2449294f2edc6952f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Example Image.png using Guid(d4c9617f9168dd2449294f2edc6952f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1997d7288276b12e6d1712ba78e9b6f5') in 0.0226324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.856763 seconds.
+  path: Assets/Images/Example.png
+  artifactKey: Guid(d4c9617f9168dd2449294f2edc6952f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Example.png using Guid(d4c9617f9168dd2449294f2edc6952f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30342919b96de5a399ee1bab5df5f947') in 0.0144218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.713843 seconds.
+  path: Assets/Images/Example.png
+  artifactKey: Guid(d4c9617f9168dd2449294f2edc6952f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Example.png using Guid(d4c9617f9168dd2449294f2edc6952f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1990e67d88725911b743e302604e2a58') in 0.0565232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2407.972834 seconds.
+  path: Assets/Scenes/BlankAR.unity
+  artifactKey: Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BlankAR.unity using Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '736385a2fec084b1631b44d9cb2d63a2') in 0.001526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.103105 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '79b366d1cfabab97cb29a6db85ea9270') in 0.1157659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.105513 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '51b68d292450be5661d378f9ce453aad') in 0.0939111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.124706 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: 'c8a26d56f0258d05d633774227fa3c97') in 0.0745174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.384259 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '4f066436d784fe6bcef5ab800e347d7c') in 0.0847682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.550506 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '121ea04fe4894623b6c83a8c9a04ca47') in 0.0842998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.842292 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4180545b4aaeaba8e9824d507220305') in 0.0327452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.009296 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '168d7cc730a05ad117eed926b353ca05') in 0.0241385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.625452 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4255583bf32beace6d5622d4a2cbe652') in 0.0227998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.207736 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dfdfb12c535a17d5b360dad224d1fdc') in 0.0223623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.197262 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b167634840264c0116983db25fb47860') in 0.0285136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.797951 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97dffa1836af5081d497d0992ec64536') in 0.0296084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.555013 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '68147e6bb06d98ca35142fe9ffd01ecb') in 0.084072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.552075 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '94b709a958fdebf3e017276833fde9bf') in 0.0844256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.571259 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '92a4e46f6a2941ee6345039bde98bb84') in 0.0605946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.092529 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(2a05ab3d0b63cad4f8b84c370915d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '782dfafa5bd98420c97570a8f966ab82') in 0.0382051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.955200 seconds.
+  path: Assets/Image.prefab
+  artifactKey: Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image.prefab using Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6c837794ec1129daa286934a51bdba2') in 0.0026163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.724030 seconds.
+  path: Assets/ImageTracked.prefab
+  artifactKey: Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageTracked.prefab using Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f06788f42177b823efe79dd5be1e3e6a') in 0.0030243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.726509 seconds.
+  path: Assets/ImageTracked.prefab
+  artifactKey: Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageTracked.prefab using Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebdd0f534e8fe2056016a27b517e8770') in 0.0275662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.009563 seconds.
+  path: Assets/ImageTracked.prefab
+  artifactKey: Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageTracked.prefab using Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d8bb32506ddde8a6348937a814155f1') in 0.0097475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.809077 seconds.
+  path: Assets/ImageTracked.prefab
+  artifactKey: Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageTracked.prefab using Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fe349f1e9111308fbd460b5c6dc5d22') in 0.0114557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.428513 seconds.
+  path: Assets/ImageTracked.prefab
+  artifactKey: Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageTracked.prefab using Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27f05e5b117a861479ad157b41305561') in 0.0158478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.800251 seconds.
+  path: Assets/ImageTracked.prefab
+  artifactKey: Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageTracked.prefab using Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '426bff4c4c06d85eb775c2ecd988f890') in 0.0058332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.739104 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: 'e6fb6822034ca25606816f7f8eedfced') in 0.0822042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.727129 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '6ff801ea655bc4ad056193efb4c87522') in 0.0604572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.173226 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '90223e4acb3277fb43147792be172579') in 0.0672408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.350317 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '5ce4fa3a33a9973649c9f960bfca95b9') in 0.1094239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.751196 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '05276fd9cf6c1aa34820c02eb8d68ca4') in 0.0727036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.779149 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '678f1e14a7271a631487da83a3cb20a0') in 0.109075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.925932 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '1b1d1d86a331fb1945c4a33a086d6308') in 0.0613701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.152586 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '16eefb19b33861c44cec4c184b61218e') in 0.0548075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.970422 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: '44afb83ea51069852f74d22793639674') in 0.0725918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.416628 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+The AnimationClip 'Armature|Armature|mixamo.com|Layer0' used by the Animation component 'performer' must be marked as Legacy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2108]
+
+ -> (artifact id: 'c8c2e2ff283732619b88f74a01633e7f') in 0.0797368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.996646 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '698a4717bf5069a6552d0da21bce7d7d') in 0.026085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.770921 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27baff04a7ff70260013eedb12eb2c4d') in 0.0205003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.463070 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '104fed4c789ef7704e69afec4347c6b8') in 0.0409585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.590969 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e164591cf08b984f6adf3e92b0114de') in 0.0236486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.113285 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12a10969b03362600ddd975ead139b7b') in 0.0311026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.326111 seconds.
+  path: Assets/ImageTracked.prefab
+  artifactKey: Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageTracked.prefab using Guid(d4edd9ba88a639b4f9bfbb00c7843e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efed3302710808b67a6b59e397dd8841') in 0.0054928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.758761 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '262e11847aa5e64dd659486f79d37aa2') in 0.0287554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.792411 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a84447294285dab96f134a98f95fd2a3') in 0.0209636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.819114 seconds.
+  path: Assets/Models/Armature_Armature_mixamo.com_Layer0.anim
+  artifactKey: Guid(410d0d6cb6aa9d143b2fd0e2bd12f9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Armature_Armature_mixamo.com_Layer0.anim using Guid(410d0d6cb6aa9d143b2fd0e2bd12f9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2002bdd527388ea7fc9b5b4c5eaaedb') in 0.0180742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.173408 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6501271273a88ba5ba5fdbed14563a4') in 0.0891823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.317253 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44596e7001d068f015a25e3ab14c1082') in 0.0736936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.461259 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77a4aed44032fc94bedb904c05e80e8e') in 0.0292529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.966173 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5859688b90709fb38b972157f357eed') in 0.0239016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.197407 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a827d69198555a9ba721b5e27454bb2') in 0.0812526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.303144 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '718964f7cd9ef366fe9950f004b9aeb5') in 0.0963238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.682247 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a2979d50ed99e7fb436d8aa8ab724d0') in 0.032477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.849671 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a9416854c79ef516293894608f9157d') in 0.0923708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 224.525246 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27716bba9ca8060cd8cedf12a27e39ad') in 0.0325674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.313091 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64bf21c1161bb79a887b9caab5399961') in 0.1233384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.023839 seconds.
+  path: Assets/1134847.prefab
+  artifactKey: Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134847.prefab using Guid(d88a4b9a081220a4cb0795d247e5217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d6afab630b050b2dccb2e8b3a0b3b6b') in 0.0226101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.942886 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0d471b25a99dd50a222bb3f6008debf') in 0.1669592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.699248 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d8cc0dc70744b13d9399da65c0e11f0') in 0.0959442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.732108 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c8e9b13920cfe6a3a4dbaeb79451dbe') in 0.096751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.823279 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c59cdcbe280bc2de4b812c868d75588') in 0.0841594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.529233 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0bb570d2b30f44a173b7e061004444c') in 0.0968088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.003335 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13b0b9d1d516f5c1eb81659f6b10e50a') in 0.0243803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.031553 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c91e9387c5d18207fce7a6f7f47db86e') in 0.0235392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.991649 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c4b319214b7e3b43add6d5f60c4e265') in 0.0207028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.653717 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd198c3734017427534169563bd8d8f6') in 0.0202055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.089319 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '615573c80da97cfe3b6a2d8bd3b0372a') in 0.0253127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.597575 seconds.
+  path: Assets/1134846.prefab
+  artifactKey: Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134846.prefab using Guid(67ce502dff63ba84aa9beba2872d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52376390d1b05dbf6a877a9426378f76') in 0.029857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.597978 seconds.
+  path: Assets/Models/Armature_Armature_mixamo.com_Layer0 1.anim
+  artifactKey: Guid(9292055d7483fe241b088840da088ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Armature_Armature_mixamo.com_Layer0 1.anim using Guid(9292055d7483fe241b088840da088ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc5c104bb1eaddbd42b34c890266d21d') in 0.0171611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.033002 seconds.
+  path: Assets/Models/info.fbx
+  artifactKey: Guid(a630b25260d5a4b4fa9da5a7a17544b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/info.fbx using Guid(a630b25260d5a4b4fa9da5a7a17544b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4b94e14a7a264e3698dd554935f194f') in 0.2559176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.515164 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffff5bf29f0e831f091dc85130bed3fe') in 0.1183716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 408
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.211825 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(42650952f89a789408e57ab2eaf70e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(42650952f89a789408e57ab2eaf70e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81b0fb18421d68db71cf8cd93213db20') in 0.0007006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 741.455080 seconds.
+  path: Assets/Models/Armature_Armature_mixamo.com_Layer0.anim
+  artifactKey: Guid(410d0d6cb6aa9d143b2fd0e2bd12f9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Armature_Armature_mixamo.com_Layer0.anim using Guid(410d0d6cb6aa9d143b2fd0e2bd12f9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58ba9b4543da920de00f368ced0028b1') in 0.016457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.827773 seconds.
+  path: Assets/Models/Performer_animation.anim
+  artifactKey: Guid(410d0d6cb6aa9d143b2fd0e2bd12f9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Performer_animation.anim using Guid(410d0d6cb6aa9d143b2fd0e2bd12f9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0269c648e260632e1bfd7f41b570f33') in 0.0170656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.976509 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53d4a04618cc05cf74ab0a95269b679b') in 0.1052463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 408
+
+========================================================================
+Received Import Request.
+  Time since last request: 1182.750563 seconds.
+  path: Assets/Images/mxrt4.png
+  artifactKey: Guid(631ab4659caaf2e43a72b27e8717152f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mxrt4.png using Guid(631ab4659caaf2e43a72b27e8717152f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a75bcec9b05867492ea79368ba9e353b') in 0.0518019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.700916 seconds.
+  path: Assets/1134845.prefab
+  artifactKey: Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1134845.prefab using Guid(8aea53d3b3af8c34ba2ee0d071979894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b044470e7b8d77e5b74eab3499d66fdf') in 0.1041839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 408
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.099316 seconds.
+  path: Assets/Models/stage.fbx
+  artifactKey: Guid(8a1aac1d84ac5ae41a98bef9e381b0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/stage.fbx using Guid(8a1aac1d84ac5ae41a98bef9e381b0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c4895132fc048cc6022a71c3b28a32d') in 0.0531525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.838027 seconds.
+  path: Assets/Materials/Stage_back.mat
+  artifactKey: Guid(7b7d99eb35027694eb774cc01b029fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stage_back.mat using Guid(7b7d99eb35027694eb774cc01b029fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecc980685bd8b5a1f87f13e91cc378a9') in 0.015401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.158176 seconds.
+  path: Assets/Images/Armature_Armature_mixamo.com_Layer0.anim
+  artifactKey: Guid(dabe829ad97a58a4cb11f60410c13a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Armature_Armature_mixamo.com_Layer0.anim using Guid(dabe829ad97a58a4cb11f60410c13a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '874fbb1b603973f4cb04a00c9dcc9b3b') in 0.0166195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.397985 seconds.
+  path: Assets/Images/header.png
+  artifactKey: Guid(e6c407186fc9826468ffc2b9b803b04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/header.png using Guid(e6c407186fc9826468ffc2b9b803b04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd83b263463aeecbd219c911af64b3d28') in 0.0225765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.082946 seconds.
+  path: Assets/Images/header.png
+  artifactKey: Guid(e6c407186fc9826468ffc2b9b803b04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/header.png using Guid(e6c407186fc9826468ffc2b9b803b04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e245dac82bd42e4c74c4f034fe8ac1c') in 0.0186533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1176.011267 seconds.
+  path: Assets/Images/path54.png
+  artifactKey: Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/path54.png using Guid(dc41870c22c92fb4c94f31f2b7e16784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cc9f2527c545e3b02000d92519d5d4f') in 0.0580046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 1483.048468 seconds.
+  path: Assets/Images/prize.png
+  artifactKey: Guid(849fd5de880be734fb87b49fe3b075f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/prize.png using Guid(849fd5de880be734fb87b49fe3b075f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82bb04ebe4ccdca03bd7374a46c339f6') in 0.0159657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.187650 seconds.
+  path: Assets/Images/prize.png
+  artifactKey: Guid(849fd5de880be734fb87b49fe3b075f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/prize.png using Guid(849fd5de880be734fb87b49fe3b075f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a59695d905051a118ea45448883af1cd') in 0.0171949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 12.81 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5335 unused Assets / (3.1 MB). Loaded Objects now: 6089.
+Memory consumption went from 143.1 MB to 140.0 MB.
+Total: 95.622600 ms (FindLiveObjects: 1.400800 ms CreateObjectMapping: 0.851900 ms MarkObjects: 90.829500 ms  DeleteObjects: 2.537800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\gavin\OneDrive\Desktop\Unity projects\MXRT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gavin\OneDrive\Desktop\Unity projects\MXRT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.293 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 11.91 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.794 seconds
+Domain Reload Profiling: 3082ms
+	BeginReloadAssembly (486ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (202ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (1712ms)
+		LoadAssemblies (1682ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (795ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (608ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 9.52 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5399 unused Assets / (3.1 MB). Loaded Objects now: 6107.
+Memory consumption went from 147.1 MB to 144.0 MB.
+Total: 8.756500 ms (FindLiveObjects: 0.617100 ms CreateObjectMapping: 0.733700 ms MarkObjects: 5.182600 ms  DeleteObjects: 2.222500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
