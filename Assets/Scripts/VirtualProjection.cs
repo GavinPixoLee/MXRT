@@ -37,19 +37,19 @@ public class VirtualProjection : MonoBehaviour
                     _instantiatedPrefabs[imageName] = newPrefab;
                 }    
             }
-            _instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(trackedImage.trackingState == TrackingState.Tracking);
+            _instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(true);
         }
 
         foreach (ARTrackedImage trackedImage in eventArgs.updated)
         {
-            _instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(trackedImage.trackingState == TrackingState.Tracking);
+            //_instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(trackedImage.trackingState == TrackingState.Tracking);
         }
 
 
-        foreach (ARTrackedImage trackedImage in eventArgs.added)
+        foreach (ARTrackedImage trackedImage in eventArgs.removed)
         {
-            Destroy(_instantiatedPrefabs[trackedImage.referenceImage.name]);
-            _instantiatedPrefabs.Remove(trackedImage.referenceImage.name);
+            //Destroy(_instantiatedPrefabs[trackedImage.referenceImage.name]);
+            //_instantiatedPrefabs.Remove(trackedImage.referenceImage.name);
         }
     }
 }
