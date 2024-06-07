@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|c:\\users\\gavin\\onedrive\\desktop\\unity projects\\mxrt\\assets\\scripts\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\assets\\scripts\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|c:\\users\\gavin\\onedrive\\desktop\\unity projects\\mxrt\\assets\\scripts\\scorecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\assets\\scripts\\scorecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scorecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|c:\\users\\gavin\\onedrive\\desktop\\unity projects\\mxrt\\assets\\scripts\\virtualobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\virtualobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|c:\\users\\gavin\\onedrive\\desktop\\unity projects\\mxrt\\assets\\scripts\\virtualprojection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\virtualprojection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\assets\\scripts\\arcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\assets\\scripts\\virtualprojection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48EA4D53-56C7-4854-4B6F-3135852C2E73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\virtualprojection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VirtualObject.cs",
+              "DocumentMoniker": "C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\Assets\\Scripts\\VirtualObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VirtualObject.cs",
+              "ToolTip": "C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\Assets\\Scripts\\VirtualObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VirtualObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:12:12.46Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -36,7 +53,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreCounter.cs",
               "ToolTip": "C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\Assets\\Scripts\\ScoreCounter.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScoreCounter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA1wBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T15:24:33.745Z",
               "EditorCaption": ""
@@ -49,20 +66,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dashboard.cs",
               "ToolTip": "C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\Assets\\Scripts\\Dashboard.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dashboard.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAMwGAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T15:16:19.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ARCameraController.cs",
               "DocumentMoniker": "C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\Assets\\Scripts\\ARCameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ARCameraController.cs",
               "ToolTip": "C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\Assets\\Scripts\\ARCameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\ARCameraController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAswFkAAAAnAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAwwFwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T11:57:11.653Z",
               "EditorCaption": ""
@@ -75,7 +92,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\VirtualProjection.cs",
               "ToolTip": "C:\\Users\\gavin\\OneDrive\\Desktop\\Unity projects\\MXRT\\Assets\\Scripts\\VirtualProjection.cs",
               "RelativeToolTip": "Assets\\Scripts\\VirtualProjection.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCYAAAANAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T15:32:47.435Z",
               "EditorCaption": ""

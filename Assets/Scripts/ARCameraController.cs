@@ -6,23 +6,28 @@ using UnityEngine.SceneManagement;
 public class ARCameraController : MonoBehaviour
 {
     bool recording;
-    bool infoMode;
+    public bool infoMode { get; private set; }
 
     public GameObject dashboard;
     public GameObject toggleMode;
     public GameObject shutter;
     public GameObject record;
     public GameObject whiteScreen;
+    public GameObject guitarFilter;
+    public GameObject stageFilter;
 
     public GameObject redCircle;
     public GameObject whiteSquare;
     public GameObject cameraIcon;
     public GameObject infoIcon;
+
+    ScoreCounter scoreCounter;
     // Start is called before the first frame update
     void Start()
     {
         infoMode = true;
         recording = false;
+        scoreCounter = GameObject.Find("ScoreCounter").GetComponent<ScoreCounter>();
     }
 
     // Update is called once per frame
@@ -84,6 +89,10 @@ public class ARCameraController : MonoBehaviour
     public void TakePhoto()
     {
         whiteScreen.GetComponent<Animation>().Play();
+        if ((stageFilter.activeSelf || guitarFilter.activeSelf) && !scoreCounter.CheckComplete("filter"))
+        {
+            scoreCounter.TaskComplete("filter");
+        }
     }
     public void GoToDashboard()
     {

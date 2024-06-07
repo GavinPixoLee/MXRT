@@ -11,7 +11,7 @@ public class VirtualProjection : MonoBehaviour
 
     public GameObject[] ArPrefabs;
 
-    private readonly Dictionary<string, GameObject> _instantiatedPrefabs = new Dictionary<string, GameObject>();
+    public float disappearDistance;
     void Awake()
     {
         _trackedImagesManager = GetComponent<ARTrackedImageManager>();
@@ -28,16 +28,32 @@ public class VirtualProjection : MonoBehaviour
     {
         foreach (ARTrackedImage trackedImage in eventArgs.added)
         {
-            String imageName = trackedImage.referenceImage.name;
+            string imageName = trackedImage.referenceImage.name;
             foreach (GameObject currentPrefab in ArPrefabs)
             {
-                if (string.Compare(currentPrefab.name, imageName, StringComparison.OrdinalIgnoreCase) == 0 && !_instantiatedPrefabs.ContainsKey(imageName))
+                if (string.Equals(currentPrefab.name, imageName))
                 {
-                    GameObject newPrefab = Instantiate(currentPrefab, trackedImage.transform);
-                    _instantiatedPrefabs[imageName] = newPrefab;
+                    currentPrefab.SetActive(true);
+                    currentPrefab.GetComponent<VirtualObject>().scanned = true;
+                    currentPrefab.transform.SetParent(trackedImage.transform, false);
                 }    
             }
-            _instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(true);
+        }
+
+        foreach (GameObject currentPrefab in ArPrefabs)
+        {
+            if (currentPrefab.GetComponent<VirtualObject>().scanned)
+            {
+                if ((currentPrefab.transform.position - this.gameObject.GetComponentInChildren<Camera>().transform.position).magnitude > disappearDistance)
+                {
+                    currentPrefab.SetActive(false);
+                    currentPrefab.GetComponent<VirtualObject>().filter.SetActive(false);
+                }
+                else
+                {
+                    currentPrefab.SetActive(true);
+                }
+            }
         }
 
         foreach (ARTrackedImage trackedImage in eventArgs.updated)
